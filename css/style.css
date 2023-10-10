@@ -7,10 +7,12 @@
 
 
 
-.shopping-cart {
-    float: right;
-    justify-self: right;
+
+.navbar-nav {
+    display: flex;
+    align-items: center; 
 }
+
  
 
 
