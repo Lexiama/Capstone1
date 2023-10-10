@@ -6,6 +6,8 @@
 }
 
 /* NAVIGATION /*
+
+
  
 
 
@@ -14,17 +16,20 @@
 
 /* HERO */
 
-.card {
+.card { width: 400px;
+        max-height: 300px;
+    
    
     
 }
 
 
-.product-card { 
-    max-width: 500px;
+.product-card2 { 
+    width: 400px;
+    max-height: 300px;
+    
 }
 
 
 
 /* CHECKOUT */
-
