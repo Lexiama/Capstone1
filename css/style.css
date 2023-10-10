@@ -5,9 +5,12 @@
     font-family: 'Boska', serif;;
 }
 
-/* NAVIGATION /*
 
 
+.shopping-cart {
+    float: right;
+    justify-self: right;
+}
  
 
 
@@ -16,8 +19,12 @@
 
 /* HERO */
 
-.card { width: 400px;
+
+.card { 
+        width: 400px;
         max-height: 300px;
+        float: left
+        
     
    
     
