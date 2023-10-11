@@ -16,16 +16,19 @@
  
 /* HERO */
 
+.custom-padding {
+    padding-left: 120px; }
+
+ .custom-margin {
+        margin-left: 20px; 
+    }
+
 
 .text-element-class {
     margin-bottom: 30px;
 }
 
 
-.card { 
-        
-        
-}
 
 
 
