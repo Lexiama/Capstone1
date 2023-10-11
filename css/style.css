@@ -26,13 +26,17 @@
     margin-bottom: 30px;
 }
 
+.column {
+    float: left;
+    width: 25%; }
+
+
+
 
 .card { 
         width: 400px;
         max-height: 300px;
-        float: left
-        
-    }
+}
 
 
 .product-card2 { 
@@ -40,6 +44,9 @@
     max-height: 300px;
     
 }
+
+/* LOG IN */
+
 
 
 

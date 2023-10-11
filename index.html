@@ -26,53 +26,48 @@
 
 
     <!--NAVIGATION BAR-->
-    
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      
       <div class="container">
-        <a href="index.html"class="navbar-brand" href="#BrandName">Skkn</a> 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="NewArrivals.html" class="nav-link active" aria-current="page" href="#Newarrivals">New Arrivals</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Bestseller">Best Sellers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Bodycare">Shop All</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Skincare">Skincare</a>
-            </li>
-    
-
-        
-              <div class="shopping-cart"> 
-                <button type="button" class="btn position-relative top-100">
-                  <i class="fa fa-search" style="font-size:24px"></i>
-              </button>
-              </div>
-              <div class="shopping-bag"> 
-                <button type="button" class="btn position-relative top-100">
-                  <i class="fa fa-shopping-basket" style="font-size:24px"></i> </div>
-                  <div class="shopping-bag"> 
-                    <button type="button" class="btn">
-                        <i class="fas fa-user-circle" style="font-size:24px"></i>
-                    </button>
-                </div>
-                
-            
-            </li>
+          <a href="index.html" class="navbar-brand">Skkn</a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a href="NewArrivals.html" class="nav-link active" aria-current="page">New Arrivals</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Bestseller">Best Sellers</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Bodycare">Shop All</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Skincare">Skincare</a>
+                  </li>
+                  <li class="nav-item">
+                      <button type="button" class="btn">
+                          <i class="fa fa-search" style="font-size:24px"></i>
+                      </button>
+                  </li>
+                  <li class="nav-item">
+                      <button type="button" class="btn">
+                          <i class="fa fa-shopping-basket" style="font-size:24px"></i>
+                      </button>
+                  </li>
+                  <li class="nav-item"> 
+                      <a href="login.html" class="btn">
+                          <i class="fas fa-user-circle" style="font-size:24px"></i>
+                      </a> 
+                  </li>
               </ul>
-        </div>
+          </div>
       </div>
-    </nav>
-    
+  </nav>
+  
+
+   
     
     <!--HERO AND CAROUSEL-->
 
@@ -105,11 +100,9 @@
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
+          <img src="images/IMG2.jpg" class="d-block w-100" alt="...">
+          
+        </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -127,20 +120,25 @@
 
    <!-- BEST SELLER -->
 
-
+<!-- Bestseller Section -->
 <section id="#Bestseller" class="py-5">
   <div class="container">
-      <div class="title text-center">
-          <h2 class="position-relative d-inline-block">Best Sellers</h2>
-          <div class="text-element-class">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ea odit dignissimos eveniet,
-              voluptatibus unde, quidem ut nisi asperiores numquam <br>
-              quibusdam rerum consequuntur odio eos, beatae eaque eligendi Excepteur sint occaecat cupidatat non proident, 
-              <br> sunt in culpa qui officia deserunt mollit anim id est laborum. obcaecati fugiat?
+      <!-- Title and Description -->
+      <div class="row">
+          <div class="col text-center">
+              <h2 class="position-relative d-inline-block">Best Sellers</h2>
+              <div class="text-element-class">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ea odit dignissimos eveniet,
+                  voluptatibus unde, quidem ut nisi asperiores numquam quibusdam rerum consequuntur odio eos,
+                  beatae eaque eligendi Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum. obcaecati fugiat?
+              </div>
           </div>
       </div>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Product Cards -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+          <!-- Product 1 -->
           <div class="col">
               <div class="card">
                   <img src="images/IMG3.jpg" class="card-img-top" alt="...">
@@ -151,6 +149,7 @@
                   </div>
               </div>
           </div>
+          <!-- Product 2 -->
           <div class="col">
               <div class="card">
                   <img src="images/IMG4.jpg" class="card-img-top" alt="...">
@@ -161,12 +160,13 @@
                   </div>
               </div>
           </div>
+          <!-- Product 3 -->
           <div class="col">
               <div class="card">
                   <img src="images/IMG5.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card .</p>
+                      <p class="card-text">This is a longer card.</p>
                       <button class="btn btn-outline-secondary" type="button">Shop Now</button>
                   </div>
               </div>
@@ -175,14 +175,23 @@
   </div>
 </section>
 
-<div class="card mb-3">
-  <img src="images/skincare11.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+<!-- Skincare Quiz Section -->
+<section id="skincarequiz" class="py-5">
+  <div class="container">
+      <div class="row">
+          <div class="col">
+              <div class="card mb-3">
+                  <img src="images/skincare11.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">What skin type?</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-</div>
+</section>
 
 
 
