@@ -29,8 +29,31 @@
 
     /* PRODUCT CARDS */
 
+    .image-container {
+        position: relative;
+        overflow: hidden;
+    }
     
-
+    .base-image, .overlay-image {
+        width: 100%;
+        transition: opacity 0.3s;
+    }
+    
+    .overlay-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+    
+    .image-container:hover .base-image {
+        opacity: 0;
+    }
+    
+    .image-container:hover .overlay-image {
+        opacity: 1;
+    }
+    
 
 /* CHECKOUT */
 .new-row {
