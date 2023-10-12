@@ -73,7 +73,7 @@
 
 .skinimage-container,
 .skincaretext-container {
-    margin-top: 50px;
+    margin-top: 30px;
     flex: 1;                    
     padding: 10px;            
 }
@@ -129,10 +129,12 @@
 
 
 .login-card-container {
+    background-color:rgb(171, 159, 144);
     display: flex;
     align-items: center;   
     justify-content: center; 
-    height: 100vh;  
+    height: 70vh;  
+    
 }
 
 
