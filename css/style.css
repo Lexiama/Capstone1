@@ -56,6 +56,16 @@
     
 
 /* SKIN CARE QUIZ */
+
+.spaced-card {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 60px;   
+}
+
+
 .skincare-container {
     display: flex;              
     align-items: center;  
@@ -77,16 +87,27 @@
 
 
 .skincontent2-container {
-    display: flex;             
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;             
     align-items: center; 
-    border-radius: 15px;      
+          
 }
 
 .skinimage2-container,
 .skintext2-container {
     flex: 1;                    
-    padding: 10px;
+    padding: 15px;
     
+}
+
+.skincaretext-container, .skintext2-container {
+    text-align: center;
+}
+
+.skintext2-container {
+    margin-right: 70px;   
+    margin-top: 20px;
 }
 
 .skinimage2-container img {
@@ -94,6 +115,26 @@
     height: auto;
     border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+    .skintext2-container, .skinimage2-container {
+        flex-basis: 100%; 
+        padding: 10px; 
+    }
+
+}
+
+
+/*LOG in*/
+
+
+.login-card-container {
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    height: 100vh;  
+}
+
 
 
 
