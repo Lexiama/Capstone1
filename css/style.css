@@ -58,7 +58,7 @@
 /* SKIN CARE QUIZ */
 
 .spaced-card {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     justify-content: center; 
     align-items: center;   
@@ -121,12 +121,26 @@
         flex-basis: 100%; 
         padding: 10px; 
     }
-
 }
 
 
-/*LOG in*/
+/*New arrivals*/
 
+.container {
+    padding: 15px;  /* Adjust as necessary */
+}
+
+.newarrival-card {
+    margin: 35px ;  /* Adds vertical spacing above and below each card */
+}
+
+
+
+
+
+
+
+/*LOG in*/
 
 .login-card-container {
     background-color:rgb(171, 159, 144);
