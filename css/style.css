@@ -32,6 +32,8 @@
     .image-container {
         position: relative;
         overflow: hidden;
+        margin: 15px ; 
+     
     }
     
     .base-image, .overlay-image {
@@ -58,11 +60,13 @@
 /* SKIN CARE QUIZ */
 
 .spaced-card {
-    margin-top: 50px;
+    margin-top: 12px;
+    margin: 10px;
     display: flex;
     justify-content: center; 
     align-items: center;   
-    height: 60px;   
+    height: 60px;  
+ 
 }
 
 
@@ -127,11 +131,12 @@
 /*New arrivals*/
 
 .container {
-    padding: 15px;  /* Adjust as necessary */
+    padding: 15px;  
 }
 
 .newarrival-card {
-    margin: 35px ;  /* Adds vertical spacing above and below each card */
+    margin: 20px ; 
+    margin-top: -1px;
 }
 
 
@@ -142,13 +147,18 @@
 
 /*LOG in*/
 
-.login-card-container {
-    background-color:rgb(171, 159, 144);
+
+.login-section {
     display: flex;
-    align-items: center;   
-    justify-content: center; 
-    height: 70vh;  
-    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 
