@@ -167,8 +167,10 @@ div.container.nav-container, div.container {
 }
 
 .newarrival-card {
-    margin: 30px ; 
+    margin: 30px; 
     margin-top: -1px;
+    margin-right: 10%;
+    margin-left:10%;
    
 }
 
@@ -212,6 +214,9 @@ div.container.nav-container, div.container {
 
 
 /* CHECKOUT */
+
+
+
 .new-row {
     display: -ms-flexbox; 
     display: flex;
@@ -297,3 +302,6 @@ div.container.nav-container, div.container {
       margin-bottom: 20px;
     }
   }
+
+
+
