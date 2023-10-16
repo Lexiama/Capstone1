@@ -17,6 +17,11 @@
 
 }
 
+.navbar {
+    z-index: 1051; 
+
+}
+
 
 .navbar-nav {
     display: flex;
@@ -58,6 +63,7 @@
 
 }
 
+/* DESKTOP */
 
 .desktop-item {
     display: block;
@@ -67,6 +73,7 @@
     display: none;
 }
 
+/
 
 @media (max-width: 767px) {
     .desktop-item {
@@ -78,10 +85,7 @@
     }
 }
 
-.navbar {
-    z-index: 1051; 
 
-}
 
 #about {
     margin-top: 45px; 
@@ -135,7 +139,7 @@
     
 
 
-    
+
 /* CUSTOM ZIG ZAG LAYOUT */
 
 .spaced-card {
