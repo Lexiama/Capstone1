@@ -67,7 +67,7 @@
     display: none;
 }
 
-/* When the screen size is 767px or less, hide desktop items and show mobile items */
+
 @media (max-width: 767px) {
     .desktop-item {
         display: none;
@@ -135,12 +135,13 @@
 /* CUSTOM ZIG ZAG LAYOUT */
 
 .spaced-card {
-    
-    margin: 10px 1% 10px 1%;  
+    margin: 10px 1%;
     display: flex;
     justify-content: center; 
     align-items: center;   
-    height: 60px;  
+    height: auto; 
+    text-align: center; 
+    
 }
 
 
@@ -151,15 +152,17 @@
 
 .skinimage-container,
 .skincaretext-container {
-    margin-top: 3px;
+    margin-top: 40px;
     flex: 1;                    
-    padding: 20px;            
+    padding: 20px;           
 }
 
 .skinimage-container img {
-    max-width: 90%;           
+    max-width: 100%;           
     height: auto;
     border-radius: 15px;
+    margin-left: 12px ;
+    
     
 }
 
