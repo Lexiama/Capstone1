@@ -16,7 +16,7 @@ SKKN is not just another skincare brand; it's a lifestyle. Our products are craf
 ## HomepageFeatures
 
 
-![homepage](images/readme1.PNG)
+![Screenshot](readme1.png)
 
 ## HERO
 
