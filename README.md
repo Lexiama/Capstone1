@@ -68,4 +68,12 @@ Users can easily view an order summary, providing a clear breakdown of their pur
 
 
 
-## 
+## one interesting code
+
+The overlay I have my product images.. When I have the time I really wanted to try it because I seen alot of the 
+e-ecomm markets do this especially in beauty.. I was always fascinated and to do it was pretty cool.
+I found a base image and a overlay image which will appear on hover.. both images are within a card div class 'image-container
+and the images stack ontop of each other. then using css transtion like opacity:0 this means that its there but its invisible to users initially 
+and the overlay opacity from 0 to 1 makes it from invisible to visible
+this set set up ensures that the customer will initially see the base image while the overlay is effectivetly 
+invisible and can be revealed throaugh
