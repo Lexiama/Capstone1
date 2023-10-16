@@ -63,7 +63,12 @@
 
 }
 
-/* DESKTOP */
+
+
+
+/* MOBILE */
+
+@media (min-width: 769px) {
 
 .desktop-item {
     display: block;
@@ -73,9 +78,12 @@
     display: none;
 }
 
-/* MOBILE */
+}
+
+/*  DESKTOP */
 
 @media (max-width: 767px) {
+   
     .desktop-item {
         display: none;
     }
@@ -84,6 +92,10 @@
         display: block;
     }
 }
+
+
+
+
 
 
 
