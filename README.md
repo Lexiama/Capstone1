@@ -34,7 +34,7 @@ Inspirational Quote: A standalone section displaying a skincare-related quote to
 
 Product Overlay: Our product images feature an overlay that zooms in, providing a detailed view of the ingredients or a product sample. This ensures transparency and helps you make informed decisions about your skincare.
 
-![Alt text](images/readme3.PNG)
+![Alt text](images/readme3.png)
 
  Zig-Zag Layout: Our website layout, particularly in the blog-like sections, uses a zig-zag design. This contemporary design approach not only looks aesthetically pleasing but also makes the content engaging and easy to follow.
 
