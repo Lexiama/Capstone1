@@ -1,8 +1,4 @@
 # First-Website
-<<<<<<< HEAD
-=======
-# First-Website
->>>>>>> 452895602e589fafad66568b56e89f56306a73fb
 ## SKKN
 Welcome to SKKN, where skincare meets nature. We're dedicated to providing the purest, most effective skincare products designed to rejuvenate, revitalize, and bring out your natural beauty.
 
@@ -80,11 +76,9 @@ I found a base image and a overlay image which will appear on hover.. both image
 and the images stack ontop of each other. then using css transtion like opacity:0 this means that its there but its invisible to users initially 
 and the overlay opacity from 0 to 1 makes it from invisible to visible
 this set set up ensures that the customer will initially see the base image while the overlay is effectivetly 
-invisible and can be revealed throaugh
-<<<<<<< HEAD
-=======
+invisible and can be revealed through.
 
 
 
 
->>>>>>> 452895602e589fafad66568b56e89f56306a73fb
+
