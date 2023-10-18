@@ -63,11 +63,11 @@ Upon navigating to the registration page, users are greeted with an intuitive si
 
 ## CHECKOUT
 
-![homepage](images/readme7.PNG)
+![Alt text](images/readme7.PNG)
 
 Users can easily view an order summary, providing a clear breakdown of their purchases. 
 
-
+![Alt text](images/readmeoverlay.PNG)
 
 ## one interesting code
 
@@ -79,7 +79,9 @@ and the overlay opacity from 0 to 1 makes it from invisible to visible
 this set set up ensures that the customer will initially see the base image while the overlay is effectivetly 
 invisible and can be revealed through.
 
+I also challenged myself after facing difficulties with my hero tittle on my responsive page, I worked on the media query where my hero changes when on mobile. Its a similar image but with more simple. 
 
+![homepage](images/readmereponsive.PNG)
 
 
 
